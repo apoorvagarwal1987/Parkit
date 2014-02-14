@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parkit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="btnLock">Save Location</string>
+    <string name="btnNavigate">Find Car</string>
+    <string name="btnRecent">Recent</string>
+
+    
+    <string name="tabLockPos">Lock</string>
+    <string name="tabHistory">Recent</string>    
+    
+    <string name="txtSelectDay">Select a day of the week</string>
+    <string name="description">Day of the week</string>    
+    
+    <drawable name="red">#C11B17</drawable>
+    <string name="prompt">  Select Week Day  </string>
+    
+    <string name="carPosition">Current position</string>
+    <string name="carRecentPosition">Parked on </string>
+    <string name="carParking">Parking address</string>
+    
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>    
+    <string name="recentDefault">Recent 10 parking spots</string>
+    
+    
+     <string name="parkingTab">Parking</string>
+     <string name="suggestionTab">Suggestions</string>
+     <string name="recentTab">Recent</string>
+       
+     <string name="parkingLoc">Parking lot</string>
+     <string name="restaurantLoc">Restaurant</string>
+     <string name="gasLoc">Gas pump</string>
+     <string name="cafeLoc">Cafe</string>
+     <string name="barLoc">Bar</string>
+     <string name="hospitalLoc">Hospital</string>
+     <string name="groceryLoc">Grocery</string>
+     <string name="airportLoc">Airport</string>
+    
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+   <TableRow
+       android:id="@+id/tableRow1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <Button
+           android:id="@+id/btnLockPos"
+           style="?android:attr/borderlessButtonStyle"
+           android:layout_width="0dip"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="#000000"
+           android:onClick="lockPosition"
+           android:text="@string/btnLock"
+           android:textColor="#FFFFFF"
+           android:textSize="20sp" />
+
+       <Button
+           android:id="@+id/btnNav"
+           style="?android:attr/buttonBarButtonStyle"
+           android:layout_width="0dip"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="#000000"
+           android:onClick="navigateToCar"
+           android:text="@string/btnNavigate"
+           android:textColor="#FFFFFF"
+           android:textSize="20sp" />
+   </TableRow>
+    
+    
+</TableLayout>
